@@ -13,69 +13,88 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Mi Tienda</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#"
-                >Principal</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Redes</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
-        </div>
-      </div>
-    </nav>
+    <ul class=" d-flex justify-content-end p-2 nav fixed-top ">
+      <img class=" m-3 m-md-4 m-lg-5 position-absolute start-0 imagenchiter" src="./assets/foto_perfil-removebg-preview.png" alt="">
+      </li>
+     
+      <li class="btn nav-item fw-3 ">
+        <a class="nav-link active fw-bold fw-2" aria-current="page" href="#">Home</a>
+      </li>
+      <li class="btn nav-item ">
+        <a class="nav-link fw-bold fw-2" href="#">Nosotros</a>
+      </li>
+      <li class="btn nav-item ">
+        <a class="nav-link fw-bold w-25 " href="#">Contacto</a>
+      </li>
+      
+        
+  
+    </ul>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
-      crossorigin="anonymous"
-    ></script>
+    <section class="position-relative vh-100 overflow-hidden">
+
+      <img src="./assets/131ffe17fbaca82da95dd14dff884e17.jpg" alt="Hamburguesa" class="position-absolute  w-100 h-100 object-fit-cover z-n1">
+
+      <div class="position-relative text-center text-white d-flex align-items-center justify-content-center h-100">
+        <h1 class="fw-bold">HAMBURGUESAS CHITER</h1>
+
+      </div>
+    </section>
+
+
+    <main class="d-flex justify-content-center bg-primary-subtle pt-5">
+      <section class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          
+          <div class="col">
+            <div class="card h-100">
+              <video src="./assets/b18f61d0939b7c70135493db442a72cb.mp4" class="card-img-top object-fit-contain p-4" controls autoplay loop muted playsinline></video>
+              <div class="card-body">
+                <h5 class="card-title">La Chitera</h5>
+                <p class="card-text">UNA LOCURA</p>
+                <a href="#" class="btn btn-primary">Mas información</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/a266e5d843e1e18547a3e0dcebdf25fb.jpg" class="card-img-top p-4" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">La bajonera</h5>
+                <p class="card-text">fua</p>
+                <a href="#" class="btn btn-primary">Mas información</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/6d2e4962d7e7e95df15c14209a9967c8.jpg" class="card-img-top p-4" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">La Bestia</h5>
+                <p class="card-text">jijiji</p>
+                <a href="#" class="btn btn-primary">Mas información</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+    </main>
+    
+      
+
+    </main>
+
+   
+      
+
+  <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"
+      ></script>
+    </div>
   </body>
 </html>
