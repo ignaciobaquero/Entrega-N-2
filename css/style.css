@@ -3,17 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   overflow-x: hidden;
   background-color: #522713;
+}
 
 .imagenchiter {
   display: flex;
   width: 15%;
 }
+
 .background {
-  background-color: #460E04;
+  background-color: #460e04;
 }
+
 .burgers {
   scroll-behavior: smooth;
 }
@@ -35,7 +39,10 @@ body {
     top: 90%;
   }
 }
-
 .asd {
-  font-weight: 00;
+  font-weight: 0;
+}
+
+.nosotros {
+  padding-top: 6%;
 }
