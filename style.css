@@ -5,11 +5,17 @@
 }
 body {
   overflow-x: hidden;
-}
+  background-color: #522713;
 
 .imagenchiter {
   display: flex;
   width: 15%;
+}
+.background {
+  background-color: #460E04;
+}
+.burgers {
+  scroll-behavior: smooth;
 }
 
 @media (min-width: 900px) {
